@@ -1,20 +1,19 @@
-# 🛒 E-Commerce Backend System (Spring Boot)
+# 🛒 ShopCore — E-Commerce Backend System
 
 ## 📌 Overview
-This project is a RESTful E-Commerce backend system developed using Spring Boot. It provides APIs to manage users, products, categories, and orders for an online shopping platform.
+ShopCore is a scalable backend system for an e-commerce platform developed using Java and Spring Boot. It provides RESTful APIs to manage users, products, orders, and categories efficiently.
 
-The system is designed with a layered architecture to ensure scalability, maintainability, and clean code structure.
+The system is designed using a layered architecture to ensure clean code structure, maintainability, and scalability.
 
 ---
 
 ## 🚀 Features
 - User Management (Create, Update, Delete)
-- Product Management with extended attributes (e.g., rating, stock)
-- Category Management
+- Product and Category Management
 - Order Processing System
-- RESTful API Design with proper HTTP methods
+- RESTful API Design using HTTP methods
 - JSON-based data exchange
-- Exception Handling and Validation
+- Input validation and error handling
 
 ---
 
@@ -23,15 +22,13 @@ The system is designed with a layered architecture to ensure scalability, mainta
 - Spring Boot
 - Spring Data JPA (Hibernate)
 - Maven
-- H2 Database (Development)
-- PostgreSQL (Production Ready)
+- H2 / MySQL (Database)
 - Apache Tomcat
 
 ---
 
 ## 📂 Project Structure
-
-- **Controller Layer** → Handles HTTP requests and API endpoints  
+- **Controller Layer** → Handles API requests and responses  
 - **Service Layer** → Contains business logic  
 - **Repository Layer** → Handles database operations  
 - **Entity Layer** → Defines data models  
@@ -40,45 +37,38 @@ The system is designed with a layered architecture to ensure scalability, mainta
 
 ## 🔗 API Endpoints (Sample)
 
-- `GET /products` → Get all products  
+- `GET /products` → Fetch all products  
 - `POST /products` → Add new product  
 - `PUT /products/{id}` → Update product  
 - `DELETE /products/{id}` → Delete product  
 
-- `GET /users` → Get all users  
-- `POST /orders` → Place order  
+- `GET /users` → Fetch all users  
+- `POST /orders` → Place new order  
 
 ---
 
-## ⚡ Enhancements Made
-- Improved API response structure for better readability  
-- Added additional product attributes (e.g., rating, stock)  
-- Enhanced error handling and validation  
-
----
-
-## 🧠 Concepts Used
+## ⚡ Key Concepts Used
 - Object-Oriented Programming (OOP)
-- REST API Design Principles
-- Layered Architecture
+- REST API Development
 - HTTP Protocol & Status Codes
 - JSON Data Handling
+- Layered Architecture
 
 ---
 
 ## 🎯 Future Improvements
-- Add authentication & authorization (JWT)
-- Implement payment integration
-- Add search and filtering functionality
+- Add authentication and authorization (JWT)
+- Implement payment gateway integration
+- Add search and filtering features
 - Build frontend interface
 
 ---
 
 ## 👨‍💻 Author
-**Anurag Rana**  
-GitHub:https://github.com/Anuragrana72005
+**Bipanjit Singh Bajwa**  
+GitHub: https://github.com/Bipanjit
 
 ---
 
 ## ⭐ Note
-This project was enhanced and customized to improve functionality and demonstrate backend development skills using Spring Boot.
+This project demonstrates backend development skills using Java and Spring Boot with a focus on REST APIs and scalable architecture.
